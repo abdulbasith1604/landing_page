@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+    height: 30vh;
+}
+
+.topright{
+    width: 50%;
+    height: 50vh;
+}
+
+.section1{
+    max-height: 700vh;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.dumbbellimg{
+    width: 160px;
+    padding-left: 5vh;
+    margin-top: 20vh;
+    }
+
+.topright .gymimg{
+    width: 180px;
+    margin-top: 0.2vh;
+}
+
+.section2{
+    max-height: 300vh;
+}
+
+.section2 h1{
+    font-size: 2rem;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 25vw;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.section2 p{
+    padding: 0 5vw;
+    text-align: center;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.deal{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    margin: 5px 0;
+}
